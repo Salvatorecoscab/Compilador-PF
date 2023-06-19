@@ -1,0 +1,30 @@
+.titlePrincipal {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #1745ff;
+//  background-color:#2E86C1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 7px solid #1745ff;
+}
+.codigo{
+    width: auto; /* Ancho del componente */
+    height: auto; /* Alto del componente */
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #1745ff;
+}
+.titleCodigo{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #000000;
+//  background-color:#2E86C1;
+    padding: 10px;
+    margin-left: 120px;
+}
