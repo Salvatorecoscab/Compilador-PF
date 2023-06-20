@@ -1,6 +1,6 @@
 .titlePrincipal {
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Sans', sans-serif;
     text-align: center;
     color: #1745ff;
 //  background-color:#2E86C1;
@@ -12,8 +12,7 @@
     width: auto; /* Ancho del componente */
     height: auto; /* Alto del componente */
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    font-family: 'Roboto Sans', sans-serif;
     color: #000000;
     padding: 10px;
     border-radius: 5px;
@@ -27,4 +26,8 @@
 //  background-color:#2E86C1;
     padding: 10px;
     margin-left: 120px;
+}
+
+.double{
+    display: flex;
 }
