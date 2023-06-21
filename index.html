@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,37 +8,45 @@
 </head>
 <body>
     <h1 class="titlePrincipal">Compilador</h1>
-    <div>
-        <span class="double"></span>
-        <div>
-    <form id="VerificaCodigo">
-        <label for="codigo" class="titleCodigo">Codigo</label>
-        <br> <br>
-        <!--<input type="text" name="codigo" id="codigo" class="codigo">-->
-        <textarea name="codigo" id="codigo" cols="30" rows="10" class="codigo"></textarea>
-    <input type="submit" value="Enviar">
-</div>
+    <div class="container">
+        <div class="left">
+            <form id="VerificaCodigo">
+                <label for="codigo" class="titleCodigo">Codigo</label>
+                <br> <br>
+                <!--<input type="text" name="codigo" id="codigo" class="codigo">-->
+                <textarea name="codigo" id="codigo" cols="30" rows="10" class="codigo"></textarea>
+                <br> <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
 
-        
-    <div>
-    <div>
-        <label for="error">Error</label>
-        <label for="errorlabel"></label>
+        <div class="right">
+            <div>
+                <form id="VerificaCodigo">
+                    <label for="codigo" class="titleCodigo">Error</label>
+                    <br> <br>
+                    <!--<input type="text" name="codigo" id="codigo" class="codigo">-->
+                    <textarea name="codigo" id="codigo" cols="30" rows="10" class="codigo"></textarea>
+                    <br> <br>
+                </form>
+                
+                <form id="VerificaCodigo">
+                    <label for="codigo" class="titleCodigo">Resultado</label>
+                    <br> <br>
+                    <!--<input type="text" name="codigo" id="codigo" class="codigo">-->
+                    <textarea name="codigo" id="codigo" cols="30" rows="10" class="codigo"></textarea>
+                    <br> <br>
+                </form>
 
+            </div>
+        </div>
     </div>
-    <div>
-        <label id="result" for="result">Resultado</label>
-        <label id="resultlabel" for="resultlabel"></label>
-    </div>
-    </div>
-    </span>
-    </form>
-    </div>
+    
     <script src="index.js"></script>
     <footer>
         <ul>
-            <li> Costilla Caballero Salvador
-            <li> Feliciano Acatitlan Juan Antonio
+            <li>Costilla Caballero Salvador</li>
+            <li>Feliciano Acatitlan Juan Antonio</li>
         </ul>
     </footer>
 </body>
