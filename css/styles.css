@@ -12,12 +12,16 @@
     width: auto; /* Ancho del componente */
     height: auto; /* Alto del componente */
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: #000000;
+
+    /* font roboto */
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    background-color: #635985;
+
     padding: 10px;
     border-radius: 5px;
-    border: 5px solid #1745ff;
+    border: 5px solid #18122B;
 }
 .titleCodigo{
     font-size: 40px;
