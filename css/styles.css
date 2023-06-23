@@ -1,34 +1,48 @@
+.body{
+    background-color: #F8F6F4;
+}
 .titlePrincipal {
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Sans', sans-serif;
     text-align: center;
-    color: #1745ff;
-//  background-color:#2E86C1;
+    color: #0000FF;
+
     padding: 10px;
     border-radius: 5px;
-    border: 7px solid #1745ff;
+    border: 7px solid #0000FF;
 }
 .codigo{
     width: auto; /* Ancho del componente */
     height: auto; /* Alto del componente */
     font-size: 15px;
-
-    /* font roboto */
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    color: #ffffff;
-    background-color: #635985;
-
+    font-family: 'Roboto Sans', sans-serif;
+    color: #000000;
     padding: 10px;
     border-radius: 5px;
-    border: 5px solid #18122B;
+    border: 5px solid #11009E;
+    background-color: #EEF1FF;
 }
 .titleCodigo{
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     color: #000000;
-//  background-color:#2E86C1;
-    padding: 10px;
-    margin-left: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+.bloque{
+    display:block;
+    text-align:center;
+    justify-content: center;
 }
