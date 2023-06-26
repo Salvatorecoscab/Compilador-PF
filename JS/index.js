@@ -17,6 +17,6 @@ document.getElementById('VerificaCodigo').addEventListener('submit', function(e)
 
     // Clear the form
     document.getElementById('VerificaCodigo').reset();
-
+    
 
 });
